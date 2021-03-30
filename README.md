@@ -2,7 +2,7 @@
 Code for running an adaptation of the computationally-intensive randomization test [1], 
 a non-parametric hypothesis test. This code was used in the paper:
 
-Cantisani et al. "EEG-based decoding of auditory attention to a target instrument in 
+> Cantisani et al. "EEG-based decoding of auditory attention to a target instrument in 
 polyphonic music." 2019 IEEE Workshop on Applications of Signal Processing to Audio 
 and Acoustics (WASPAA).
 
@@ -14,4 +14,3 @@ likely the input performances (given by y_pred and y_true) were to be produced b
 this artificial distribution of performances obtaining the P-value.
 
 [1] E. W. Noreen, "Computer-intensive methods for testing hypotheses". Wiley New York, 1989.
-
