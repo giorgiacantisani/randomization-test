@@ -57,6 +57,7 @@ def get_statistical_significance(p):
 
 def best_fit_distribution(data, distributions=[st.norm, st.t], bins=200, ax=None):
     """
+    Credits to https://stackoverflow.com/a/37616966 
 
     Parameters
     ----------
@@ -112,6 +113,7 @@ def best_fit_distribution(data, distributions=[st.norm, st.t], bins=200, ax=None
 
 def make_pdf(dist, params, size=10000):
     """
+    Credits to https://stackoverflow.com/a/37616966 
 
     Parameters
     ----------
